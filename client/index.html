@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board - For Nerds</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="title"> Message Board For Fun!! ≧◡≦ </h1>
+    </header>
+    <main>
+        <form class="new-form">
+            <div class="error-message">
+            </div>
+            <label for="name">Name</label>
+            <input class="u-full-width" type="text" id="name" name="name">
+            <label for="message">Your Message</label>
+            <textarea class="u-full-width" type="text" name="content" id="content"></textarea>
+            <button class = "button-primary">Send your message!</button>
+        </form>
+        <div class="button-container">
+            <p id="loadMore">Loading...</p>
+        </div>
+        <div class="loading">
+            <img src="loading.gif" alt="">
+        </div>
+    </main>
+    <script src="client.js"></script>
+</body>
+</html>
